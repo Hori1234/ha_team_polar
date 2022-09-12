@@ -1,0 +1,67 @@
+Mesh Bounding Box Size 0.250000 0.590885 0.600000
+Mesh Bounding Box Diag 0.878433 
+Mesh Bounding Box min -0.125000 -0.295442 -0.300000
+Mesh Bounding Box max 0.125000 0.295442 0.300000
+Mesh Surface Area is 0.842992
+Mesh Total Len of 648 Edges is 46.798962 Avg Len 0.072221
+Mesh Total Len of 648 Edges is 46.798962 Avg Len 0.072221 (including faux edges))
+Thin shell (faces) barycenter: -0.000000 -0.000000 -0.000000
+Vertices barycenter 0.000000 -0.000000 -0.000000
+Mesh Volume is 0.050501
+Center of Mass is 0.000000 -0.000000 -0.000000
+Inertia Tensor is :
+| 0.002070 0.000000 0.000000 |
+| 0.000000 0.001223 -0.000000 |
+| 0.000000 -0.000000 0.001223 |
+Principal axes are :
+| 0.000000 -0.997670 -0.068222 |
+| -0.000000 -0.068222 0.997670 |
+| 1.000000 0.000000 0.000000 |
+axis momenta are :
+| 0.001223 0.001223 0.002070 |
+Applied filter Compute Geometric Measures in 707 msec
+
+
+
+Wheel inertia tensor, scale = m:
+
+| 0.002070 0.000000 0.000000 |
+| 0.000000 0.001223 -0.000000 |
+| 0.000000 -0.000000 0.001223 |
+
+now multiply by mass/volume = 20/0.0501
+
+| 0.826347 0.000000 0.000000 |
+| 0.000000 0.4882235 -0.000000 |
+| 0.000000 -0.000000 0.4882235 |
+
+
+FRAME Primitive:
+Mesh Bounding Box Size 1.500000 1.200000 0.470000
+Mesh Bounding Box Diag 1.977600 
+Mesh Bounding Box min -0.750000 -0.600000 0.000000
+Mesh Bounding Box max 0.750000 0.600000 0.470000
+Mesh Surface Area is 4.564801
+Mesh Total Len of 930 Edges is 129.068863 Avg Len 0.138784
+Mesh Total Len of 930 Edges is 129.068863 Avg Len 0.138784 (including faux edges))
+Thin shell (faces) barycenter: 0.001679 -0.001865 0.128282
+Vertices barycenter 0.000308 -0.018800 0.047791
+Mesh Volume is 0.227956
+Center of Mass is 0.003336 0.004091 0.165322
+Inertia Tensor is :
+| 0.035214 -0.000003 -0.000080 |
+| -0.000003 0.019124 -0.000107 |
+| -0.000080 -0.000107 0.044665 |
+Principal axes are :
+| -0.000190 -0.999991 -0.004182 |
+| -0.999965 0.000225 -0.008419 |
+| -0.008420 -0.004180 0.999956 |
+axis momenta are :
+| 0.019123 0.035213 0.044666 |
+Applied filter Compute Geometric Measures in 1125 msec
+
+
+Mass = 400 Volume = 0.227956 so mass/volume = 1754.72
+| 0.035214 -0.000003 -0.000080 |
+| -0.000003 0.019124 -0.000107 |
+| -0.000080 -0.000107 0.044665 |

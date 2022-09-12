@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="joy_config"  default="$(find polar_control)/config/joy.yaml"/>
+  <arg name="teleop_joy_config"  default="$(find polar_control)/config/joy_teleop.yaml"/>
+  <arg name="cmd_drive" default="/polar_prototype/cmd_drive"/>
+
+  <node pkg="joy" type="joy_node" name="joy_node" respawn="true" output="screen">
+      <rosparam file="$(arg joy_config)"  command="load"/>
+  </node>
+
+  <rosparam file="$(arg teleop_joy_config)" command="load" />
+  <node pkg="polar_control" type="teleop_joy.py" name="teleop_joy">
+            <remap from="cmd_drive" to="$(arg cmd_drive)"/>
+  </node>
+  
+</launch>

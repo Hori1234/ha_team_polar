@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+<<<<<<< HEAD
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+=======
+        "databaseFilename": "${default}",
+>>>>>>> 8bfb1d1139ca9d8c5bfbc2224f3239f39ae2fc3e
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hori/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/hori/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/hori/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/hori/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/hori/catkin_ws/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/hori/catkin_ws/src/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/hori/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/hori/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+<<<<<<< HEAD
+        "/home/hori/catkin_ws/src/ROS-Robotics-Projects-SecondEdition/chapter_10_ws/velodyne_gazebo_plugins/include/**",
+=======
+>>>>>>> 8bfb1d1139ca9d8c5bfbc2224f3239f39ae2fc3e
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,32 @@
+teleop:
+  # Default mode - Stop for safety
+  default:
+    type: topic
+    is_default: true
+    message_type: polar_control/CustomMsg
+    topic_name: cmd_drive
+    message_value:
+      -
+        target: drive.left_vel
+        value: 0.0
+      -
+        target: drive.right_vel
+        value: 0.0
+
+  # Enable Human control by holding Left Bumper
+  human_control:
+    type: topic
+    message_type: polar_control/CustomMsg
+    topic_name: cmd_drive
+    deadman_buttons: [4]
+    axis_mappings:
+      -
+        axis: 1
+        target: drive.left_vel
+        scale: 10.0
+        offset: 0.0
+      -
+        axis: 4
+        target: drive.right_vel
+        scale: 10.0
+        offset: 0.0

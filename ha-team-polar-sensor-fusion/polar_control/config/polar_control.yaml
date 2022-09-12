@@ -1,0 +1,23 @@
+polar_prototype:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+  
+  # Velocity Controllers ---------------------------------------
+  wheel_RR_controller:
+    type: effort_controllers/JointVelocityController
+    joint: base_to_wheel_RR
+    pid: {p: 1.0, i: 0.0, d: 0.0, i_clamp: 0.0}
+  wheel_FR_controller:
+    type: effort_controllers/JointVelocityController
+    joint: base_to_wheel_FR
+    pid: {p: 1.0, i: 0.0, d: 0.0, i_clamp: 0.0}
+  wheel_FL_controller:
+    type: effort_controllers/JointVelocityController
+    joint: base_to_wheel_FL
+    pid: {p: 1.0, i: 0.0, d: 0.0, i_clamp: 0.0}
+  wheel_RL_controller:
+    type: effort_controllers/JointVelocityController
+    joint: base_to_wheel_RL
+    pid: {p: 1.0, i: 0.0, d: 0.0, i_clamp: 0.0}
